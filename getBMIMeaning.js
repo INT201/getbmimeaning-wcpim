@@ -14,9 +14,10 @@ function getBMIMeaning(weight, height) {
       return "Normal weight"
     }
   }
-  else (BMI>25.0){
+  else {
     return "Overweight"
   }
 }
+
 
 module.exports = getBMIMeaning
